@@ -47,21 +47,21 @@ ADDING DEPENDENCIES
 Edit the default project.clj file and add the dependency [org.clojure/math.numeric-tower "0.0.2"].
 
 	(defproject project123 "0.1.0-SNAPSHOT"
-  	:description "FIXME: write description"
-  	:url "http://example.com/FIXME"
-  	:license {:name "Eclipse Public License"
-            :url "http://www.eclipse.org/legal/epl-v10.html"}
-  	:dependencies [[org.clojure/clojure "1.4.0"]
-  									[org.clojure/math.numeric-tower "0.0.2"])
+  		:description "FIXME: write description"
+  		:url "http://example.com/FIXME"
+  		:license {:name "Eclipse Public License"
+         	   	:url "http://www.eclipse.org/legal/epl-v10.html"}
+  		:dependencies [[org.clojure/clojure "1.4.0"]
+  			[org.clojure/math.numeric-tower "0.0.2"])
 
 The namespace created by Leiningen is called project123.core. The namespace is the world in which the project lives.
 To make life easier, add the namespace to project.clj.
 
-									:
-									:
+					:
+					:
 	:dependencies [[org.clojure/clojure "1.4.0"]
-									[org.clojure/math.numeric-tower "0.0.2"]
-  :main project123.core)
+			[org.clojure/math.numeric-tower "0.0.2"]
+  	:main project123.core)
   
 
 EDITING THE PROGRAM
