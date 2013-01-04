@@ -143,7 +143,7 @@ Yay! It worked.
 HOT RELOADING
 -------------
 
-You can edit the core.clj file. After saving the edited file, to reload the file without having to exit clojure and start again, use the following command.
+You can edit the core.clj file. After saving the edited file, reload the file by running:
 
 	project123.core=> (require 'project123.core :reload-all)
 		
@@ -151,6 +151,7 @@ STOP EXIT QUIT
 ---------------
 
 The three ways to exit Clojure are:
+
 	project123.core=> (quit)
 
 or
