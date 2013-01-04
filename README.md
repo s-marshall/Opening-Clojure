@@ -18,9 +18,9 @@ INSTALLING LEININGEN
 
 Install Leiningen, a package manager, on your computer.
 
-[Leiningen github page][ln]
+[Leiningen home page][ln]
 
-[ln]: https://github.com/technomancy/leiningen/blob/master/README.md
+[ln]: http://leiningen.org
 
 CREATING A PROJECT
 ------------------
