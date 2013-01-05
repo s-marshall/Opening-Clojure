@@ -34,7 +34,9 @@ Leiningen creates a directory named project123 containing default directories an
 ADDING LIBRARIES
 ----------------
 
-There are libraries called Clojure Contrib Libraries to add to your project.
+There are libraries called [Clojure Contrib Libraries][clib] for adding to your project.
+
+[clib]:http://dev.clojure.org/display/doc/Clojure+Contrib+Libraries
 
 	project123 will use the math library - math.numeric-tower
 
